@@ -1,6 +1,0 @@
-
-
-	This is basically a simple script which resizes images easily and quickly, the only requirement is imagegmagick, which is automatically installed with the deb file.
-
-	This script is only for linux, considering that the commands are linux-specific.
-	You can download the .deb package file at http://getagripon.com/tillie/download.php?file=l3

@@ -1,7 +1,0 @@
-#!/bin/bash
-
-for i in `ls *.jpg`;
-do
-cd $1
-convert "$i" -resize "$2"% $i
-done
