@@ -1,0 +1,8 @@
+Package: easy-resize
+Version: 1.0
+Section: images
+Priority: optional
+Architecture: i386
+Depends: bash (>= 3.0), imagemagick
+Maintainer: Levi Tillie <levi.tillie3@gmail.com>
+Description: Easy-Resize is a simple script to resize mass amounts of images within a directory to any size, given by the user.

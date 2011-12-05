@@ -1,0 +1,28 @@
+#!/bin/bash
+
+help() {
+	echo ""
+	echo "***********************************"
+	echo "*					*"
+	echo "*	   *************************	*"
+	echo "*	   *	  Easy-Resize	   *	*"
+	echo "*	   *			   *	*"
+	echo "*	   *	 by Levi Tillie	   *	*"
+	echo "*	   *************************	*"
+	echo "*					*"
+	echo "***********************************"
+	echo ""
+	echo " just type mir followed by the directory in which you would like to resize all the contained images, and the percent you would like them resized, without the % symbol."
+	}
+
+for i in `ls *.jpg`;
+do
+cd $1
+convert $i -resize $2% $i
+done
+
+if [ "$1" = "--help" ];
+then
+	help
+fi
+
